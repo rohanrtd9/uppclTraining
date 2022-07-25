@@ -1,0 +1,16 @@
+.bck{
+background-image: url("../assets/nphrgz8yfnjylrwfr0yl.webp");
+height: 100vh;
+margin: 0;
+color: aliceblue;
+  
+}
+body{
+  margin:0px;
+}
+.box
+{
+    border: 5;
+    border-style: solid;
+    width: fit-content;
+}
