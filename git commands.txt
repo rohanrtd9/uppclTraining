@@ -1,0 +1,49 @@
+this is to travel forward in the directory
+HP@DESKTOP-E7PECJJ MINGW64 ~
+$ cd ./etc
+
+#to list the content of current directory
+HP@DESKTOP-E7PECJJ MINGW64 /etc
+$ ls
+
+
+HP@DESKTOP-E7PECJJ MINGW64 /etc
+$ nano gitconfig
+
+#this is to travel back
+HP@DESKTOP-E7PECJJ MINGW64 /etc
+$ cd ..
+
+#to clear the screen
+HP@DESKTOP-E7PECJJ MINGW64 /
+$ nano ~/.clear
+
+#to add user name
+$ git config --global user.name "Rohan"
+
+#to add email
+$ git config --global user.email "rohanrtd911@gmail.com"
+
+#to show changes
+$ nano ~/.gitconfig
+
+#this is used to set the default editor
+$ git config --global core.editor notepad
+
+#this command is used to set the default branch name
+$ git config --global init.defaultBranch rohanMain
+
+#this is needed to list the keys that we have added
+$ git config --list
+
+#this will tell the git version that we are working on
+$git -v
+
+#this is used for opening help page in browser
+$git config --help
+
+#this is used for showing help in git commandline itself
+$git config --h
+
+#this is used to show the commits that are made to the file
+$git log

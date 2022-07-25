@@ -1,0 +1,49 @@
+1 using local repository-
+	 Be sure it isnt under any other version control software
+	
+	Steps-
+	1 open powershell in the directory and git init
+
+	$git add *.c
+	$git add license
+	$git commit -m initial project version
+	
+2 clone an existing repository from somewhere else-
+	$git clone <url>
+
+Tracking the status
+	$git status
+
+Untracked file
+	$each 'directory'>filename
+
+Tracking a new file
+	$git add readme
+
+Short status
+	$git status-s
+
+How to ignore file
+	$cat .gitignore
+	*.[o a] files with extension .o and .a are ignored (archive and object files are ignored using this method)
+
+How to stage modded files-
+$ls in directory to show file that are there
+
+#this is used to check the status of the file
+$git status 
+
+
+#this is used to add the file to staged files
+$ git add sample.txt
+
+#this is used to reset all the files that are staged
+$ git reset 
+
+#this is used to restore file to last saved point
+$git restore first.txt
+
+$git commit -m "changed from first to second"
+
+
+ 
